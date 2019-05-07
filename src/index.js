@@ -75,5 +75,6 @@ function counter(state=initialState, action={type: ""}) {
 window.counter = counter;
 
 // The store
+// trigger reducer to do the job
 const store = createStore(counter);
 window.store = store;
